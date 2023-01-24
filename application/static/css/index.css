@@ -1,0 +1,1053 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* navbar css start */
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo a img {
+    border: dashed;
+    border-width: 1px;
+    width: 55px;
+    border-radius: 40px;
+    border-color: #00B98E;
+    padding: 10px;
+}
+.logo a h1{
+
+    display: inline-block;
+    color: #00B98E !important;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.header1{
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    /* cursor: pointer; */
+    z-index: 0 !important;
+}
+.navbar-toggler {
+    float: right;
+}
+.nav-item{
+    padding-left: 25px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: red !important;
+}
+.contact{
+    padding-right: 15px;
+}
+.add-property {
+    background-color: #00B98E;
+    padding-left: 13px;
+    border-radius: 20px;
+}
+.add-property a{
+    color: white;
+    padding-right: 20px !important;
+}
+/* navbar css end */
+
+/* carousel css start */
+
+.perfect-home h2 {
+    padding-top: 10%;
+    color: #0F2F51;
+    font-size: 60px;
+    font-weight: 700;
+}
+.perfect-home h2 span{
+    color: #00B98E;
+}
+.perfect-home p {
+    padding-top: 10%;
+    color: #686767;
+    padding-bottom: 10%;
+    font-size: 23px;
+}
+.get-started a {
+    text-align: center;
+    border-radius: 15px;
+    background-color: #27C49F;
+    text-decoration-line: none;
+    color: white;
+    padding: 17px 40px;
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 25px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+
+}
+.carousel-control-prev {
+    opacity: unset;
+    width: 50px;
+    left: -4%;
+    background-color:#00B98E;
+    top: 55%;
+    height: 50px;
+    border-radius: 25px;
+}
+.carousel-control-next {
+    opacity: unset;
+    width: 50px;
+    left: -4%;
+    background-color:#00B98E;
+    top: 45%;
+    height: 50px;
+    border-radius: 25px;
+}
+/* carousel css end */
+
+
+
+/* carousel down part css start */
+.ccdp{
+    background-color: #00B98E;
+    padding: 30px;
+}
+
+.input-search input {
+    width: 100%;
+    height: 55px;
+    border-radius: 10px;
+    border: 1px;
+    border-color: #00B98E;
+}
+.select-property select{
+    width: 100%;
+    height: 55px;
+    border-radius: 10px;
+    border-color: #00B98E;
+    color:#565454;
+}
+.select-location select{
+    height: 55px;
+    width: 100%;
+    border-radius: 10px;
+    border-color: #00B98E;
+    color: #565454;
+}
+.div-10 div {
+
+    padding-left: 12px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.car-dow-but {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.car-dow-but  button{
+    width: 100%;
+    height: 55px;
+    border: 0px;
+    background-color: #0E2E50;
+    border-radius: 10px;
+    border-color: #00B98E;
+}
+.car-dow-but  button a{
+    color: white;
+    text-decoration-line: none;
+
+}
+
+/* carousel down part css end */
+
+/* properties types css start */
+.property-types{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.properties{
+    row-gap: 20px;
+}
+.properties-h2{
+    text-align: center;
+}
+.properties-h2 div h2{
+    color: #0E2E50;
+    font-weight: 700;
+    font-size: 45px;
+}
+.properties-p{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.properties-p div{
+margin: auto;
+}
+.properties-p div{
+color: gray;
+}
+
+.property-box{
+text-align: center;
+}
+.property-box div{
+border: 20px solid #EFFDF5;
+}
+.property-box div a{
+text-decoration-line: none;
+}
+.property-box div img {
+    border: 1px dashed #00B98E;
+    padding: 14px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+.property-box div h4{
+    color:#0E2E50 ;
+}
+.property-box div p{
+    color: #00B98E;
+}
+/* properties types css end */
+
+
+
+/* find perfect property css start*/
+
+.perf-property img{
+    width: 100%;
+}
+.perf-prop-cont{
+    padding-top: 70px;
+}
+.perf-prop-cont h3{
+    color:#0E2E50 ;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.perf-prop-cont p{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 18px;
+    color: gray;
+}
+.perf-prop-cont i{
+    display: block;
+    color: #00B98E;
+    padding: 10px;
+    font-size: 17px;
+}
+.perf-prop-cont i span{
+    color: gray;
+    padding-left: 10px;
+}
+.perf-prop-cont button {
+    width: 22%;
+    background-color: #00B98E;
+    border-radius: 10px;
+    padding: 7px 0px;
+    border: 1px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.perf-prop-cont button a{
+    text-decoration-line: none;
+    color: white;
+}
+/* find perfect property css end */
+
+
+
+
+/* property listening css start*/
+.row-gap{
+    row-gap: 15px;
+}
+
+.property-listening h3 {
+    font-size: 47px;
+    color: #0E2E50;
+    font-weight: 700;
+}
+
+.property-listening-content div p{
+    color: gray;
+}
+
+.property-listening-tabs ul{
+    text-align: end;
+}
+.property-listening-tabs ul li {
+    display: inline-block;
+    border: 1px solid #00B98E;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+.property-listening-tabs ul li a {
+
+    text-decoration-line: none;color: #00B98E;
+}
+.bs{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.pa{
+    padding: 15px;
+}
+
+.about-property h2 {
+    color: #00B98E;
+    padding: 5px 0px 0px 25px;
+    font-size: 30px;
+}
+
+.about-property h3 a {
+    text-decoration-line: none;
+    color: #0F2F51;
+    font-size: 23px;
+    padding-left: 25px;
+}
+.about-property i{
+    padding-left: 25px;
+    color: #00B98E;
+}
+.about-property i span {
+    font-size: 17px;
+    padding-left: 10px;
+    color: gray;
+}
+.about-property ul{
+    padding: 0px;
+}
+.about-property ul li{
+    padding-bottom: 10px;
+    width: 32%;
+    display: inline-block;
+}
+.about-property hr {
+    padding: 5px;
+    margin: 0px;
+    margin-top: 5px;
+}
+.text-center div button {
+    background-color: #00B98E;
+    border: 1px;
+    border-radius: 10px;
+    padding: 12px 15px;
+}
+.text-center div button a {
+    text-decoration-line: none;
+    color: white;
+}
+
+/* property listening css end */
+
+
+
+
+
+
+/*contact certified agent cs start*/
+.certified-agent div{
+    padding: 20px;
+}
+.certified-agent div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.certified-agent-content{
+    margin: auto;
+}
+.certified-agent-content div {
+    padding: 50px 0px;
+}
+.certified-agent-content div h3 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #0E2E51;
+}
+.certified-agent-content div p {
+    font-size: 18px;
+    /* width: 100%; */
+    /* height: 93px; */
+    padding: 20px 0px;
+}
+.certified-agent-content div button {
+    border: 1px;
+    background-color: #00B98E;
+    padding: 15px 30px;
+    margin-left: 10px;
+    border-radius: 11px;
+}
+.certified-agent-content div button i {
+    color: white;
+    padding-right: 10px;
+}
+.certified-agent-content div  button a{
+    text-decoration-line: none;
+    color: white;
+}
+.color{
+    background-color: #0E2E51 !important;
+}
+/*contact certified agent css end */
+
+
+
+
+
+
+
+/*property agent css start */
+.property-agent-content{
+    text-align: center;
+}
+.property-agent-content h4 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E2E51;
+}
+.property-agent-content p {
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+    padding: 15px;
+    color: gray;
+}
+.property-agent{
+    text-align: center;
+    position: relative;
+}
+.property-agent div img{
+    width: 100%;
+}
+.span1 {
+    position: absolute;
+    bottom: 26%;
+    left: 30%;
+
+}
+.span1 i {
+    font-size: 22px;
+    border: 2px solid white;
+    padding: 7px;
+    border-radius: 20px;
+    background-color: white;
+    color:#1DA1F2;
+}
+.span2 {
+    position: absolute;
+    bottom: 26%;
+    left: 149px;
+    
+}
+.span2 i {
+    font-size: 22px;
+    border: 2px solid white;
+    padding: 7px;
+    border-radius: 20px;
+    background-color: white;
+    color: red;
+}
+.span3 {
+    position: absolute;
+    bottom: 26%;
+    right: 30%;
+}
+.span3 i {
+    font-size: 22px;
+    border: 2px solid white;
+    padding: 7px 9px;
+    border-radius: 20px;
+    background-color: white;
+    color: blue;
+}
+/* .property-agent div span{} */
+/* .property-agent div span i{} */
+.property-agent div h5 {
+    padding-top: 33px;
+    font-size: 25px;
+}
+.property-agent div h6{
+    font-size: 20px;
+    color: #0E2E51;
+    padding-bottom: 15px;
+}
+/*property agent css end */
+
+
+
+
+
+
+/* footer css start */
+.back-color{
+    background-color: #0E2E51;
+}
+.get-in-touch div h4{
+    color: white;
+}
+.get-in-touch div p {
+    color: gray;
+    margin-bottom: 0px;
+    padding: 10px 0px;
+}
+.get-in-touch div p i {
+    font-size: 20px;
+    padding-right: 10px;
+}
+.get-in-touch div span{
+    padding-right: 15px;
+}
+.get-in-touch div span a i {
+    border: 1px solid;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 28px;
+}
+
+.quick-link div h4{
+    color: white;
+}
+.quick-link div ul{
+    padding-left: 0px;
+}
+.quick-link div ul li{
+    list-style-type: none;
+    padding: 5px 0px;
+}
+.quick-link div ul li i {
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+.quick-link div ul li i a {
+    color: gray;
+    text-decoration-line: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+
+.photo-galary div h4{
+    color: white;
+}
+.photo-galary div div{
+    padding: 0px 3px;
+}
+.photo-galary div div div img {
+    width: 100%;
+    border: 3px solid white;
+}
+
+
+
+.newsletter div h4{
+    color: white;
+}
+.newsletter div p{
+    color: gray;
+    font-size: 16px;
+    font-weight: 600;
+}
+.newsletter div div{
+    position: relative;
+}
+.newsletter div div input {
+    width: 100%;
+    padding: 16px;
+    border-radius: 15px;
+}
+.newsletter div div a {
+    text-decoration-line: none;
+    background-color:#00B98E;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+/* footer css end */
+
+/* about css start */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  .card i {
+  text-align: center;
+  font-size: 45px !important;
+  color: #00B98E;
+}
+.card h1 {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px 0px;
+  color: #0E2E51;
+}
+.fw-light{
+  color: #00B98E;
+  font-weight: 500 !important;
+}
+.text-muted {
+  color: #0E2E51 !important;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.get-know{
+  color:#00B98E;
+}
+.card-text{
+  color: #0E2E51;
+}
+.shadow-sm{
+  background-color: whitesmoke;
+}
+/* about css end */
+
+/* company certification css start */
+.fw-light {
+    color: #00B98E;
+    font-weight: 300!important;
+    font-size: 40px;
+    font-weight: 600 !important;
+}
+.text-muted {
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #0E2E51 !important;
+    font-weight: 350px;
+}
+    .shadow-sm i{
+        text-align: center;
+        font-size: 35px;
+        color: #00B98E;
+    }
+    .shadow-sm h1{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+        color: #0E2E51;
+    }
+    .card-text{
+        color: #0E2E51;
+    }
+/* company certification css end */
+
+/* contact css start  */
+.contact-with-us {
+    text-align: center;
+}
+
+.contact-with-us span {
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+    color: #0E2E51;
+}
+
+
+.contact-with-us span i a {
+    text-decoration-line: none;
+    color: #0E2E51;
+}
+
+.contact-with-us h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #00B98E;
+}
+
+.contact-with-us h4 {
+    width: 60%;
+    margin: auto;
+}
+
+.contact-form div div{
+    display: flex;
+    justify-content: center;
+}
+.contact-form div div input {
+margin: 10px 10px;
+width: 50%;
+height: 50px;
+border-radius: 12px;
+border: 2px solid gray;
+}
+
+.contact-us div div{
+    display: flex;
+    justify-content: center;
+}
+.contact-us div div input{
+    margin: 10px 10px;
+width: 50%;
+height: 50px;
+border-radius: 12px;
+border: 2px solid gray;
+}
+.text-area{
+    text-align: center;
+}
+.text-area label{
+    display: block;
+    color: #0E2E51;
+    font-size: 20px;
+}
+.text-area textarea{
+    width: 76%;
+    height: 100px;
+    border-radius: 15px;
+    border: 2px solid gray;
+}
+.text-area div button {
+background-color: #00B98E;
+border: 1px;
+border-radius: 8px;
+height: 40px;
+margin: 10px 0px;
+}
+.text-area div button a {
+text-decoration-line: none;
+padding: 0px 30px;
+font-size: 23px;
+color: white;
+}
+.contact-color{
+background-color:whitesmoke ;
+
+}
+/* contact css end */
+
+@media only screen and (max-width:1400px){
+    .perfect-home h2{
+        font-size: 50px;
+    }
+    .perfect-home p{
+        font-size: 20px;
+        padding-bottom: 10%;
+    }
+    .carousel-control-next{
+        left: -23px;
+    }
+    .carousel-control-prev{
+        left: -23px;
+    }
+    .perf-prop-cont {
+        padding-top: 35px;
+    }
+    .perf-prop-cont button {
+        margin-top: 35px;
+    }
+    .span1{
+        left: 20%;
+        bottom: 29%;
+    }
+    .span2{
+        left: 42%;
+        bottom: 29%;
+    }
+    .span3{
+        right: 24%;
+        bottom: 29%;
+    }
+
+
+}
+@media only screen and (max-width:1200px){
+    .perfect-home h2{
+        font-size: 45px;
+    }
+    .perfect-home p{
+        font-size: 18px;
+        padding-bottom: 6%;
+    }
+    .carousel-control-next{
+        left: -23px;
+    }
+    .carousel-control-prev{
+        left: -23px;
+        top: 57%;
+    }
+    .perf-property{
+        padding-top: 40px;
+    }
+    .perf-prop-cont p {
+        padding-top: 15px;
+        padding-bottom: 0px;
+    }
+    .perf-prop-cont i {
+        padding: 6px;
+    }
+    .about-property h3 a {
+        font-size: 20px;
+        padding-left: 21px;
+    }
+    .about-property ul li i {
+        padding-left: 10px;
+    }
+    .certified-agent-content div {
+        padding: 15px 0px !important;
+    }
+    .certified-agent-content div p {
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+    .certified-agent-content div h3 {
+        font-size: 36px;
+        text-align: center;
+    }
+    .span1{
+        bottom: 33%;
+    }
+    .span2{
+        bottom: 33%;
+    }
+    .span3{
+        bottom: 33%;
+    }
+    .get-in-touch div span {
+        padding-right: 0px;
+    }
+}
+@media only screen and (max-width:992px){
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .perfect-home h2 {
+        font-size: 34px;
+        padding-top: 5%;
+    }
+    
+    
+    .perfect-home p {
+        font-size: 12px;
+        padding-top: 20px;
+        padding-bottom: 10%;
+    }
+    .carousel-control-next{
+        left: -23px;
+        top: 42%;
+    }
+    .carousel-control-prev{
+        left: -23px;
+        top: 57%;
+    }
+    
+    .get-started a{
+        text-align: center;
+    }
+    .about-property h3 a {
+        font-size: 23px;
+        padding-left: 15px;
+    }
+    .certified-agent {
+        padding: 70px;
+    }
+    .certified-agent-content div p {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .certified-agent-content div {
+        text-align: center;
+    }
+    .span1{
+        bottom: 25%;
+    }
+    .span2{
+        bottom: 25%;
+    }
+    .span3{
+        bottom: 25%;
+    }
+    .get-in-touch{display: flex;
+    justify-content: space-around;}
+    .quick-link{display: flex;
+    justify-content: space-around;}
+    .photo-galary{
+        text-align: center;
+    }
+    .newsletter{
+        text-align: center;
+    }
+    .newsletter div p {
+        padding: 15px 4px;
+    }
+
+  }
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  @media only screen and (max-width:767px){
+    .carousel-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .perfect-home h2{
+        font-size: 35px;
+        text-align: center;
+    }
+    .perfect-home p{
+        font-size: 15px;
+        text-align: center;
+
+    }
+    .get-started{
+        text-align: center;
+    }
+    .ccdp{
+        margin-top: 20px;
+    }
+    .div-10 div{
+        padding-bottom: 10px;
+    }
+    .car-dow-but{
+        padding-left: 22px;
+
+    }
+    .car-dow-but button {
+        width: 98%;
+    }
+    .about-property h2 {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .about-property h3 {
+        text-align: center;
+    }
+    .about-property h3 a {
+        font-size: 24px;
+        padding-left: 5px;
+    }
+    .about-property ul li i {
+        padding-left: 10px;
+    }
+    .about-property ul li {
+        font-size: 13px;
+    }
+    .certified-agent {
+        padding: 55px;
+    }
+    .property-agent div img {
+        padding: 20px;
+    }
+
+    .span1{
+        bottom: 21%;
+    }
+    .span2{
+        left: 46%;
+        bottom: 21%;
+    }
+    .span3{
+        bottom: 21%;
+    }
+    .newsletter div p {
+        padding: 0px 0px;
+    }
+    .newsletter div div input {
+        padding: 10px;
+    }
+
+    .newsletter div div a {
+        padding: 5px 15px;
+        top: 7px;
+    }
+
+
+  }
+  @media only screen and (max-width:576px){
+    .carousel-control-next{
+        top: 39%;
+        left: 0;
+    }
+    .carousel-control-prev{
+        left: 0;   
+    }
+    .about-property {
+        text-align: center;
+    }
+    .certified-agent-content div button {
+        margin: 10px 0px;
+    }
+    .get-in-touch{
+        justify-content: flex-start;
+    }
+    .quick-link{
+        justify-content: flex-start;
+    }
+  }
+  @media only screen and (max-width:440px){
+      .span1{
+        bottom: 25%;
+    }
+    .span2{
+        bottom: 25%;
+    }
+    .span3{
+        bottom: 25%;
+    }
+
+  }
